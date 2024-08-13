@@ -15,7 +15,7 @@ scene.add( cube );
 camera.position.z = 5;
 
 function animate() {
-	requestAnimationFrame( animate );
+	requestAnimationFrame( animate ); // 请求浏览器在下一个重绘周期调用 animate 函数
 
 	cube.rotation.x += 0.01;
 	cube.rotation.y += 0.01;
